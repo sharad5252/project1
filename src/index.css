@@ -1,0 +1,97 @@
+
+.background_prop {
+  width: 100%;
+  height: 100vh;
+}
+.heading_style {
+  padding: 30px 0;
+  text-align: center;
+  font-family: Arial, Helvetica, sans-serif;
+  text-transform: uppercase;
+  font-size: 13px;
+  letter-spacing: 2px;
+  font-weight: 500;
+  color: aliceblue;
+  background-color: aqua;
+  font-size: 4.5rem;
+  margin-bottom: 30px;
+}
+.heading_style2 {
+  text-align: center;
+  background-color: chartreuse;
+  font-size: 2rem;
+
+}
+
+.cards {
+  width: 100%;
+  height: auto; 
+}
+
+.card {
+  margin: 6%;
+  transition: all cubic-bezier(0.445, 0.05, 0.55, 0.95);
+  background-color: azure;
+  width: 21.25%;
+  border-radius: 12px;
+  box-shadow: rebeccapurple;
+  float: left;
+}
+
+.card:hover {
+  box-shadow: salmon;
+  transform: scale(1.05, 1.05);
+}
+
+.card_img {
+  width: 100%;
+  height: 235px;
+  border-top-left-radius: 12px;
+  border-bottom-right-radius: 12px;
+}
+
+.card_info {
+  background-color: aliceblue;
+  border-top-left-radius: 12px;
+  border-bottom-right-radius: 12px;
+  padding: 16px 24px 24px 24px;
+  background-color: aliceblue;
+}
+
+.card category {
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  text-transform: uppercase;
+  font-size: 13px;
+  letter-spacing: 2px;
+  font-weight: 500;
+  color: darkgrey;
+  background-color: aliceblue;
+}
+
+.card_title {
+  margin: 5px;
+  margin-top: 10px;
+  font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+  background-color: #fff;
+  text-transform: capitalize;
+}
+
+button {
+  padding: 5px 8px;
+  font-family: Georgia, 'Times New Roman', Times, serif;
+  text-transform: uppercase;
+  font-size: 13px;
+  letter-spacing: 2px;
+  font-weight: 500;
+  color: #888;
+  background-color: aquamarine;
+  outline: none;
+  cursor: pointer;
+}
+
+@media (max-width: 768px) {
+  .card {
+  float: none;
+  width: 90%;
+  }
+}
